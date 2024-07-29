@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:azure;
+    font-family: calibri;
+    color: black;
+    font-size: 18px;
+}
+.topo{
+    background-color:brown;
+    padding: 20px;
+    font-size: 18px;
+
+}
+.topo a{
+    color: black;
+    text-decoration: none;    
+}
+.topo a:hover{
+    color: brown;
+}
+.texto{
+    font-family: calibi;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+.menu li{
+    margin-left: 18px;
+}
+.titulo{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.grade{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(620px,1fr));
+    gap: 5px;
+    margin-top: 20px;
+}
+.materia{
+    background-color: antiquewhite;
+    padding: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.materia img{
+    width: 60%;
+
+}
+.botao{
+    color:black;
+    background-color:white;
+    text-decoration: none;
+    padding: 3px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.botao:hover{
+    background-color:darksalmon;
+}
+.rodape{
+    background-color: white;
+    font-family:calibri;
+    padding:10px;
+    text-align:center;   
+}
+.navegacao{
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    font-size:20px ;
+}
+.rotulo{
+    display: block;
+    margin-bottom: 20px;
+}
+.campo{
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.contato{
+    background-color: white;
+    padding: 30px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea.campo{
+    height: 150px;
+    padding: 10px;
+}
+
+
